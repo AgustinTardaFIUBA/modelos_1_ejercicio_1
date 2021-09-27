@@ -1,5 +1,11 @@
 A priori voy a crear 20 lavarropas, ya que en el pero caso todas las prendas son incompatibles entre si, y voy a ir agregando cada prenda a un lavarropas en el cual no tenga
-una prenda incompatibles
+una prenda incompatibles.
 
-Voy a leer todas las incopatibilidades de un archivo y las voy a ingresar en una estructura tipo matriz en donde si son compatibles ingeso 1 y si no lo son ingreso 0. Busco
-las columnas que tengan mas 1 y las convierto en un lavaropas, las extraigo de la matriz y continuo haciendolo hasta formar todos los lavarropas.
+Voy a leer todas las incopatibilidades de un archivo y las voy a ingresar en una estructura tipo matriz en donde si son compatibles ingeso 1 y si no lo son ingreso 0. Voy 
+a iterar prenda por prenda fijandome en cada lavarropas si es compatible con la ropa que ya estan en el, si es compatible lo agrego a un lavarropas existente, y si no lo es 
+creo un nuevo lavarropas.
+
+En el codigo maneje los indices del 0 al 19 por comodidad y luego al momento de imprimirlos les sume 1.
+
+Me di cuenta que al hacerlo de forma secuencial no estoy probando todas las combinaciones de lavarropas, para esto deberia repetir el algoritmo varias veces tomando distintas
+prendas de ropa y verficar si en alguna combinacion me ahorro un lavarropas.
