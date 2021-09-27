@@ -1,0 +1,5 @@
+A priori voy a crear 20 lavarropas, ya que en el pero caso todas las prendas son incompatibles entre si, y voy a ir agregando cada prenda a un lavarropas en el cual no tenga
+una prenda incompatibles
+
+Voy a leer todas las incopatibilidades de un archivo y las voy a ingresar en una estructura tipo matriz en donde si son compatibles ingeso 1 y si no lo son ingreso 0. Busco
+las columnas que tengan mas 1 y las convierto en un lavaropas, las extraigo de la matriz y continuo haciendolo hasta formar todos los lavarropas.
